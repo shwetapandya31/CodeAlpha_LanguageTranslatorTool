@@ -1,4 +1,4 @@
-# AI-Language_Translator.git.io
+# AI-Language_Translator.git.io Project by Shweta Pandya
 This Is an AI language translator which is made for college project
 
 Commands to push code in Git-Hub
