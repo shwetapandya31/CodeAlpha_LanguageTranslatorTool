@@ -9,13 +9,10 @@ import atexit
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
+app.config['UPLOAD_FOLDER'] = 'static/audio'
 
-if os.environ.get('VERCEL') == '1':
-    app.config['UPLOAD_FOLDER'] = '/tmp/audio'
-    history_file = '/tmp/history.json'
-else:
-    app.config['UPLOAD_FOLDER'] = 'static/audio'
-    history_file = 'history.json'
+# History file setup
+history_file = 'history.json'
 history = []
 
 if os.path.exists(history_file):
