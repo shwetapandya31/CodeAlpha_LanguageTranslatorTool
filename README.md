@@ -1,9 +1,10 @@
 # AI-Language_Translator.git.io Project by Shweta Pandya
-This Is an AI language translator which is made for college project
+This Is an AI language translator which translates languagees simultaneously and show history 
 
-Commands to push code in Git-Hub
-git init
-git add .
-git commit -m ""
-git pull --rebase origin main
-git push origin main
+## Setup Instructions
+Open your terminal or command prompt in this directory.
+Install the required dependencies by running:
+
+pip install -r requirements.txt
+
+app.py OR Click on run icon/symbol
